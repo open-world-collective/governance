@@ -4,7 +4,7 @@ This repository holds governance, charter, and transparency documents for Open W
 
 ## What this is
 
-An open governance and accountability workspace for a transparency-first, community-governed virtual world project.
+An open governance and accountability workspace for a transparency-first, community-governed virtual world project focused on baking democratic rights into the protocol (not just a terms-of-service page).
 
 ## Current status
 
@@ -12,6 +12,7 @@ Early-stage governance and operations scaffolding.
 
 ## What exists today
 
+- Manifesto / reason for being (`docs/manifesto.md`)
 - Charter draft (`docs/charter.md`)
 - Governance policy set (`docs/governance/`)
 - Decision log (`docs/decision-log.md`)
