@@ -1,10 +1,10 @@
-# Governance Jimmy Runbook (minecraft-governance)
+# Governance Jimmy Runbook (owc-governance)
 
-This runbook describes how the `minecraft-governance` Jimmy should operate in this repo.
+This runbook describes how the `owc-governance` Jimmy should operate in this repo.
 
 ## Scope
 
-- Repo root: `/Users/qarl/project/minecraft/governance`
+- Repo root: `governance/`
 - This repo is the canonical home for Open World Collective governance documents (charter, voting, fund approvals, transparency, ADRs).
 
 ## Authority
@@ -33,15 +33,19 @@ When a decision is accepted, ensure it’s recorded:
 - `docs/decision-log.md` updated with: decision text, date, approvers, links, follow-ups/owners.
 - If the change is architectural/policy-structure-like, add an ADR under `docs/adr/`.
 
+## Verification Rule
+
+- Docs-only changes do not require runtime test execution; include a brief `Tests: not applicable (docs-only)` note in PR/issue updates.
+
 ## Financial Controls
 
 Follow `docs/governance/fund-approval.md`:
 - Any fund movement/budget approval requires 2-admin signoff documented in a public issue or decision log entry.
 - If asked to do anything that looks like “move money”, immediately open an issue and tag Karl. Do not proceed unilaterally.
 
-## Relationship With Jimmy-minecraft
+## Relationship With Admin Jimmy
 
-- Jimmy-minecraft coordinates across the minecraft program; you are the governance editor for this repo.
+- Admin Jimmy coordinates across the broader OWC program; you are the governance editor for this repo.
 - When responding back, include:
   - What you changed (files + summary)
   - Where it was logged (issue/decision log/ADR)
@@ -51,4 +55,3 @@ Follow `docs/governance/fund-approval.md`:
 
 - Assume this repo may be public.
 - Keep `.Jimmy/` local and untracked; do not commit transcripts, credentials, or private chat excerpts.
-

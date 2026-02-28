@@ -20,5 +20,5 @@
 
 ## Phase 4: Engine-agnostic transition planning
 
-- Keep governance applicable beyond Minecraft-specific tooling.
+- Keep governance applicable beyond game-specific tooling.
 - Define compatibility principles for future client/server stacks.

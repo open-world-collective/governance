@@ -6,7 +6,7 @@ Open World Collective exists to build shared virtual space where shared power is
 
 ## Mission
 
-Build and steward open infrastructure for a community-governed virtual world where democratic rights are part of the protocol—starting with Minecraft-compatible systems and evolving toward an engine-agnostic stack over time.
+Build and steward open infrastructure for a community-governed virtual world where democratic rights are part of the protocol—starting with vanilla-compatible systems and evolving toward an engine-agnostic stack over time.
 
 ## Principles
 
