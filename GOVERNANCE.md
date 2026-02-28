@@ -7,18 +7,26 @@
 
 ## Decision process
 
+- Canonical policy: `docs/governance/roles-and-voting.md`.
 - Standard decisions: simple majority vote of active admins.
+- Quorum: at least 2 admins participate.
 - Ties: decision deferred until an additional admin vote is recorded.
 
 ## Financial controls
 
+- Canonical policy: `docs/governance/fund-approval.md`.
 - Any fund movement or budget approval requires 2-admin signoff documented in a public issue or decision log entry.
-- Open Collective ledger will be treated as the canonical public financial record.
+- Public ledger records are treated as canonical financial references.
 
 ## Transparency
 
 - Governance decisions are recorded in `docs/decision-log.md`.
-- Periodic public updates follow `docs/transparency-report-template.md`.
+- Reporting cadence is defined in `docs/transparency/reporting-cadence.md`.
+- Report templates live in `docs/transparency/`.
+
+## Moderation and appeals
+
+- Draft policy: `docs/policies/moderation-and-appeals.md`.
 
 ## Future governance expansion
 

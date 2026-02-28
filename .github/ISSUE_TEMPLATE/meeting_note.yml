@@ -1,0 +1,35 @@
+name: Governance meeting note
+description: Record governance meeting outcomes and action items.
+title: "[Meeting] "
+labels:
+  - governance
+body:
+  - type: input
+    id: meeting_date
+    attributes:
+      label: Meeting date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: attendees
+    attributes:
+      label: Attendees
+    validations:
+      required: true
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Agenda
+    validations:
+      required: true
+  - type: textarea
+    id: decisions
+    attributes:
+      label: Decisions made
+      description: Include decision IDs when assigned.
+  - type: textarea
+    id: action_items
+    attributes:
+      label: Action items
+      description: Include owner and due date per item.
