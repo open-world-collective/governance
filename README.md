@@ -12,15 +12,28 @@ Early-stage governance and operations scaffolding.
 
 ## What exists today
 
-- Governance draft
-- Charter draft
-- Decision log
-- Transparency report template
-- Governance roadmap issues
+- Charter draft (`docs/charter.md`)
+- Governance policy set (`docs/governance/`)
+- Decision log (`docs/decision-log.md`)
+- Transparency reporting policy/templates (`docs/transparency/`)
+- Roadmap phases and milestones (`docs/roadmap/`)
+- ADR records (`docs/adr/`)
+- Governance issue and PR templates (`.github/`)
 
 ## Scope note
 
 Open World Collective is currently an engineering collaboration effort and not a legal foundation entity.
+
+## Governance v1 summary
+
+- Admin-led bootstrap phase with documented majority voting.
+- Quorum of 2 admins for formal decisions.
+- Financial actions require 2-admin signoff and public record.
+- Policy and funding decisions are logged in version-controlled docs.
+
+## Contributing
+
+See `CONTRIBUTING.md` and use the issue templates in `.github/ISSUE_TEMPLATE/`.
 
 ## Related repos
 

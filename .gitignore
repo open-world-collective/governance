@@ -1,0 +1,9 @@
+# Local editor/OS noise
+.DS_Store
+
+# Local assistant state
+.Jimmy/
+
+# Local secrets
+.env
+.env.*

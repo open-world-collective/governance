@@ -14,4 +14,4 @@ Use this log for governance or financial-control decisions.
 
 ## Entries
 
-- 2026-02-28 | GOV-001 | Created governance repository and bootstrap docs. | Bootstrap phase for OSC readiness. | Govern via admin majority with documented decisions. | open-world-collective admins | Seed governance roadmap issues.
+- 2026-02-28 | GOV-001 | Created governance repository and bootstrap docs. | Bootstrap phase for early public collaboration readiness. | Govern via admin majority with documented decisions. | open-world-collective admins | Seed governance roadmap issues.

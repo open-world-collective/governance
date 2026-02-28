@@ -1,5 +1,8 @@
 # Transparency Report Template
 
+This generic template is retained for compatibility.
+For monthly reporting, prefer `docs/transparency/2026-03-report-template.md`.
+
 ## Period
 
 - Start:

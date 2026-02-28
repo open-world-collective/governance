@@ -1,0 +1,36 @@
+name: Policy proposal
+description: Propose a governance or operational policy change.
+title: "[Policy] "
+labels:
+  - governance
+  - policy
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What is broken or unclear today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed policy
+      description: Write the concrete policy text or rule change.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What options were considered and why were they not chosen?
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and tradeoffs
+      description: What could go wrong and how should we mitigate it?
+  - type: textarea
+    id: rollout
+    attributes:
+      label: Rollout and review plan
+      description: How will this be adopted and when should it be revisited?
