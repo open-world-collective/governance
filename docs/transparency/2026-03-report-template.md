@@ -11,8 +11,10 @@
 
 ## Financial activity
 
-- Transactions (links):
-- Non-routine expenditures and approvals:
+- Public ledger (provider + link):
+- Transactions (ledger links + approval refs):
+- Variances/exceptions (if any):
+- Reconciliation checklist completed (yes/no) + notes:
 
 ## Policy and operations
 

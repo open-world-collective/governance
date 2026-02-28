@@ -5,6 +5,7 @@
 - Frequency: once per month.
 - Target publish date: by the 7th day of the following month.
 - Template: `docs/transparency/2026-03-report-template.md` (or latest monthly variant).
+- Public ledger policy: `docs/transparency/public-ledger-policy.md`.
 
 ## Required sections
 
