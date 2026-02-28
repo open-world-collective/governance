@@ -28,3 +28,4 @@
 
 - All accepted decisions are logged in `docs/decision-log.md`.
 - Entries include approvers, recusals, and follow-up actions.
+- Policy updates follow `docs/governance/policy-change-process.md`.

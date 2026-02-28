@@ -15,6 +15,8 @@ Early-stage governance and operations scaffolding.
 - Manifesto / reason for being (`docs/manifesto.md`)
 - Charter draft (`docs/charter.md`)
 - Governance policy set (`docs/governance/`)
+- Rights baseline (draft) (`docs/governance/rights-baseline.md`)
+- Policy change process (draft) (`docs/governance/policy-change-process.md`)
 - Decision log (`docs/decision-log.md`)
 - Transparency reporting policy/templates (`docs/transparency/`)
 - Roadmap phases and milestones (`docs/roadmap/`)
