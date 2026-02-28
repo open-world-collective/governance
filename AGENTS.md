@@ -45,5 +45,5 @@ If instructions are ambiguous, ask clarifying questions instead of guessing.
 
 ## Git Commit Signature
 
-- When committing, append ` (jimmy:minecraft-governance)` to the end of the commit subject line.
+- When committing, append ` (jimmy:owc-governance)` to the end of the commit subject line.
 
