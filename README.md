@@ -13,6 +13,7 @@ Early-stage governance and operations scaffolding.
 ## What exists today
 
 - Manifesto / reason for being (`docs/manifesto.md`)
+- Repo scope and boundaries (`docs/scope.md`)
 - Charter draft (`docs/charter.md`)
 - Governance policy set (`docs/governance/`)
 - Rights baseline (draft) (`docs/governance/rights-baseline.md`)
