@@ -50,6 +50,15 @@ EOF
     sed -i 's/Not approved: OpenAI/Not approved: ExampleAI/' "${d3}/AI_PROVIDER_POLICY.md"
   assert_fails env ROOT_DIR="${d3}" bash "${CHECK_SCRIPT}"
 
+  # Repo-level smoke checks for governance docs touched by rollups.
+  test -s "${REPO_ROOT}/docs/agent-runbook.md"
+  test -s "${REPO_ROOT}/docs/charter.md"
+  test -s "${REPO_ROOT}/docs/roadmap/phases.md"
+  if grep -R -n "jimmy-minecraft-worker" "${REPO_ROOT}/docs/agent-runbook.md" "${REPO_ROOT}/docs/charter.md" "${REPO_ROOT}/docs/roadmap/phases.md" >/dev/null 2>&1; then
+    echo "deprecated worker label found in governance docs" >&2
+    exit 1
+  fi
+
   rm -rf "${d1}" "${d2}" "${d3}"
   echo "check_ai_provider_policy tests passed."
 }
