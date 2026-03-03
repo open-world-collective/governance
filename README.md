@@ -10,6 +10,10 @@ An open governance and accountability workspace for a transparency-first, commun
 
 Early-stage governance and operations scaffolding.
 
+## AI provider policy
+
+See [AI_PROVIDER_POLICY.md](AI_PROVIDER_POLICY.md).
+
 ## What exists today
 
 - Manifesto / reason for being (`docs/manifesto.md`)

@@ -1,0 +1,16 @@
+name: AI Provider Policy Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-ai-provider-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify AI provider policy files
+        run: bash scripts/check_ai_provider_policy.sh
+      - name: Run policy check script tests
+        run: bash tests/test_check_ai_provider_policy.sh
