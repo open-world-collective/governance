@@ -18,6 +18,12 @@
 - Any fund movement or budget approval requires 2-admin signoff documented in a public issue or decision log entry.
 - Public ledger records are treated as canonical financial references.
 
+## Continuity and succession
+
+- Canonical policy: `docs/governance/continuity-and-succession.md`.
+- Minimum operational target is 2 active admins.
+- If active admin coverage drops below 2, only emergency continuity actions should proceed until coverage is restored.
+
 ## Transparency
 
 - Governance decisions are recorded in `docs/decision-log.md`.
