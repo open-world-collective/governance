@@ -21,7 +21,8 @@
 
 ## Conflict of interest
 
-- Any admin with direct personal or financial conflict must disclose and recuse from that vote.
+- Canonical policy: `docs/governance/conflict-of-interest.md`.
+- Any admin with a conflict must disclose it and recuse from that decision.
 - Recusal is recorded in the decision log entry.
 
 ## Recordkeeping
