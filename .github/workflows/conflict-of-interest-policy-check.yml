@@ -1,0 +1,16 @@
+name: Conflict of Interest Policy Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-conflict-of-interest-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify conflict-of-interest policy files
+        run: bash scripts/check_conflict_of_interest_policy.sh
+      - name: Run policy check script tests
+        run: bash tests/test_check_conflict_of_interest_policy.sh

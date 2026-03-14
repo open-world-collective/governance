@@ -18,6 +18,12 @@
 - Any fund movement or budget approval requires 2-admin signoff documented in a public issue or decision log entry.
 - Public ledger records are treated as canonical financial references.
 
+## Conflicts and recusals
+
+- Canonical policy: `docs/governance/conflict-of-interest.md`.
+- Conflicted admins must disclose and recuse from the affected decision.
+- Requestors, payees, and direct participants in an incident under review do not count as required approvers or appeal reviewers.
+
 ## Transparency
 
 - Governance decisions are recorded in `docs/decision-log.md`.
