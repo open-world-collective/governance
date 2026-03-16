@@ -27,6 +27,7 @@ Use this log for governance or financial-control decisions.
 
 - 2026-02-28 | GOV-001 | Created governance repository and bootstrap docs. | Bootstrap phase for early public collaboration readiness. | Govern via admin majority with documented decisions. | open-world-collective admins | Seed governance roadmap issues.
 - 2026-03-16 | GOV-002 | Ratified bootstrap governance repo scope. | Needed a public statement of what belongs in this repo versus technical repos after docs/scope.md landed in PR #12. | Adopt docs/scope.md as the bootstrap scope definition for the governance repo. | qarl, Sniffleupagus (via issue #1 approvals) | Keep scope links aligned across README, governance docs, and future technical-repo policy references; links: issue #1, PR #12; recusals: none.
+- 2026-03-16 | GOV-003 | Ratified public-ledger transparency policy. | Needed explicit public-ledger rules for metadata, approval links, redaction boundaries, and monthly reconciliation after docs/transparency/public-ledger-policy.md landed in PR #13. | Adopt docs/transparency/public-ledger-policy.md as the bootstrap public-ledger transparency policy. | qarl, makingentropy (via issue #5 approvals) | Use the updated ledger/reporting docs for the March 2026 transparency report and keep ledger links aligned with approval records; links: issue #5, PR #13; recusals: none.
 EOF
 }
 
@@ -63,6 +64,8 @@ EOF
   ROOT_DIR="${REPO_ROOT}" bash "${CHECK_SCRIPT}"
   grep -F "GOV-002" "${REPO_ROOT}/docs/decision-log.md" >/dev/null
   grep -F "issue #1, PR #12" "${REPO_ROOT}/docs/decision-log.md" >/dev/null
+  grep -F "GOV-003" "${REPO_ROOT}/docs/decision-log.md" >/dev/null
+  grep -F "issue #5, PR #13" "${REPO_ROOT}/docs/decision-log.md" >/dev/null
 
   rm -rf "${d1}" "${d2}" "${d3}"
   echo "check_decision_log tests passed."
