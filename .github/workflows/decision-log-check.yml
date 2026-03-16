@@ -1,0 +1,16 @@
+name: Decision Log Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-decision-log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify decision log format
+        run: bash scripts/check_decision_log.sh
+      - name: Run decision log check tests
+        run: bash tests/test_check_decision_log.sh
