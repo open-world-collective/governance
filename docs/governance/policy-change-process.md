@@ -6,6 +6,8 @@ It exists to satisfy the manifesto commitment to transparent rule changes (“in
 
 This is a governance policy draft and is not legal advice.
 
+For a reusable approval-comment format, see `docs/governance/ratification-approval-packet.md`.
+
 ## Scope
 
 Applies to governance and policy documents in this repo, including:
@@ -26,6 +28,9 @@ Applies to governance and policy documents in this repo, including:
    - Minor/iterative changes: keep the issue open for comment for at least 72 hours.
    - Significant changes: use an RFC-style issue and allow at least 7 days for comment (see `CONTRIBUTING.md`).
 3. **Decide**: admins vote per `docs/governance/roles-and-voting.md` (quorum of at least 2 active admins).
+   - When requesting ratification on GitHub, post a clear approval packet and `@mention` the admins whose approval is needed.
+   - Include `@qarl` on ratification requests so the approval thread is visible to the repo lead.
+   - If there are pending admins with known GitHub usernames, `@mention` them for visibility, but do not count their comments toward quorum until they accept the invite.
 4. **Record**: log the accepted decision in `docs/decision-log.md` with:
    - date + decision ID
    - summary and decision text

@@ -22,6 +22,7 @@ See [AI_PROVIDER_POLICY.md](AI_PROVIDER_POLICY.md).
 - Governance policy set (`docs/governance/`)
 - Rights baseline (draft) (`docs/governance/rights-baseline.md`)
 - Policy change process (draft) (`docs/governance/policy-change-process.md`)
+- Ratification approval packet (`docs/governance/ratification-approval-packet.md`)
 - Decision log (`docs/decision-log.md`)
 - Transparency reporting policy/templates (`docs/transparency/`)
 - Roadmap phases and milestones (`docs/roadmap/`)

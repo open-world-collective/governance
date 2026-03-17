@@ -1,0 +1,16 @@
+name: Ratification Process Docs Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-ratification-process-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify ratification process docs
+        run: bash scripts/check_ratification_process_docs.sh
+      - name: Run ratification process doc tests
+        run: bash tests/test_check_ratification_process_docs.sh
