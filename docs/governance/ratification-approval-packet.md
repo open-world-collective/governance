@@ -64,6 +64,15 @@ When asking for approval on GitHub:
 - pending-admin comments do not count toward approval quorum until the invite is accepted
 - keep the approvals in one clear location instead of splitting them across multiple threads
 
+### 7. Next-day follow-up
+
+If the vote does not have enough responses by the next day:
+
+- post a short follow-up comment in plainer English
+- explain the issue in simple terms before re-asking for votes
+- `@mention` the admins who have not responded yet
+- repeat the exact approval wording so the reply can stay short
+
 ## Retro-ratification note
 
 If the text is already merged, say that plainly:

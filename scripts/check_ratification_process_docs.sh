@@ -19,8 +19,11 @@ grep -F 'pending admins with known GitHub usernames' "${PROCESS}" >/dev/null
 
 grep -F '# Ratification Approval Packet' "${PACKET}" >/dev/null
 grep -F '### 6. Delivery and notification' "${PACKET}" >/dev/null
+grep -F '### 7. Next-day follow-up' "${PACKET}" >/dev/null
 grep -F '`@mention` the admins whose approval is needed' "${PACKET}" >/dev/null
 grep -F 'include `@qarl` on ratification requests' "${PACKET}" >/dev/null
 grep -F 'pending-admin comments do not count toward approval quorum until the invite is accepted' "${PACKET}" >/dev/null
+grep -F 'post a short follow-up comment in plainer English' "${PACKET}" >/dev/null
+grep -F 'If quorum has not been reached by the next day' "${PROCESS}" >/dev/null
 
 echo "Ratification process docs check passed."

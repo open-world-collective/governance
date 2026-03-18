@@ -31,6 +31,7 @@ For a reusable approval-comment format, see `docs/governance/ratification-approv
    - When requesting ratification on GitHub, post a clear approval packet and `@mention` the admins whose approval is needed.
    - Include `@qarl` on ratification requests so the approval thread is visible to the repo lead.
    - If there are pending admins with known GitHub usernames, `@mention` them for visibility, but do not count their comments toward quorum until they accept the invite.
+   - If quorum has not been reached by the next day, post a plain-English follow-up summary and `@mention` only the admins who still have not responded.
 EOF
 
   cat >"${dir}/docs/governance/ratification-approval-packet.md" <<'EOF'
@@ -39,6 +40,8 @@ EOF
 - `@mention` the admins whose approval is needed so GitHub sends a notification
 - include `@qarl` on ratification requests
 - pending-admin comments do not count toward approval quorum until the invite is accepted
+### 7. Next-day follow-up
+- post a short follow-up comment in plainer English
 EOF
 }
 

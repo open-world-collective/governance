@@ -31,6 +31,7 @@ Applies to governance and policy documents in this repo, including:
    - When requesting ratification on GitHub, post a clear approval packet and `@mention` the admins whose approval is needed.
    - Include `@qarl` on ratification requests so the approval thread is visible to the repo lead.
    - If there are pending admins with known GitHub usernames, `@mention` them for visibility, but do not count their comments toward quorum until they accept the invite.
+   - If quorum has not been reached by the next day, post a plain-English follow-up summary and `@mention` only the admins who still have not responded.
 4. **Record**: log the accepted decision in `docs/decision-log.md` with:
    - date + decision ID
    - summary and decision text
