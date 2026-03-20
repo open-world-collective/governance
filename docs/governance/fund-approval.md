@@ -18,6 +18,7 @@ Before spending, create a public issue with:
 
 - Minimum 2-admin signoff is required.
 - No self-approval: requestor cannot be the only approving admin.
+- Conflicts and recusals follow `docs/governance/conflict-of-interest.md`.
 - Approval comments must be explicit (`Approved`) and linked from the decision log.
 
 ## Execution and reporting
