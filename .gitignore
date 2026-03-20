@@ -4,6 +4,9 @@
 # Local assistant state
 .Jimmy/
 
+# Private repo-local notes
+private/
+
 # Local secrets
 .env
 .env.*

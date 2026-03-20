@@ -1,0 +1,17 @@
+name: Repo Local Basics Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  repo-local-basics-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repo local basics
+        run: bash scripts/check_repo_local_basics.sh
+      - name: Test repo local basics check
+        run: bash tests/test_check_repo_local_basics.sh
