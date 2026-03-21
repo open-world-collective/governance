@@ -7,6 +7,9 @@ For monthly reporting, prefer `docs/transparency/2026-03-report-template.md`.
 
 - Start:
 - End:
+- Primary owner:
+- Backup owner:
+- Publication location:
 
 ## Governance decisions
 

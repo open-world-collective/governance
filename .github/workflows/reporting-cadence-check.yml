@@ -1,0 +1,16 @@
+name: Reporting Cadence Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-reporting-cadence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify reporting cadence docs
+        run: bash scripts/check_reporting_cadence.sh
+      - name: Run reporting cadence check tests
+        run: bash tests/test_check_reporting_cadence.sh

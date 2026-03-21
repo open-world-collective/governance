@@ -4,6 +4,9 @@
 
 - Start:
 - End:
+- Primary owner:
+- Backup owner:
+- Publication location:
 
 ## Governance decisions
 
