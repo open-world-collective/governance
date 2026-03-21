@@ -30,6 +30,12 @@
 - Reporting cadence is defined in `docs/transparency/reporting-cadence.md`.
 - Report templates live in `docs/transparency/`.
 
+## Continuity and succession
+
+- Canonical policy: `docs/governance/continuity-and-succession.md`.
+- Minimum operational target is 2 active admins.
+- If active admin coverage drops below 2, only emergency continuity actions should proceed until coverage is restored.
+
 ## Moderation and appeals
 
 - Draft policy: `docs/policies/moderation-and-appeals.md`.
