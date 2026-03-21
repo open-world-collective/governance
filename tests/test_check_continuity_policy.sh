@@ -24,6 +24,10 @@ write_valid_case() {
 ## Continuity and succession
 
 - Canonical policy: `docs/governance/continuity-and-succession.md`.
+
+## Conflicts and recusals
+
+- Conflicted admins must disclose and recuse from the affected decision.
 EOF
   cat >"${dir}/docs/governance/continuity-and-succession.md" <<'EOF'
 # Continuity and Succession (Draft v1)
@@ -42,7 +46,7 @@ EOF
 }
 
 main() {
-  local d1 d2 d3
+  local d1 d2 d3 d4
 
   d1="$(mk_case_dir)"
   write_valid_case "${d1}"
@@ -59,7 +63,13 @@ main() {
     sed -i 's/Minimum operational target is 2 active admins./Minimum operational target is 1 active admin./' "${d3}/docs/governance/continuity-and-succession.md"
   assert_fails env ROOT_DIR="${d3}" bash "${CHECK_SCRIPT}"
 
-  rm -rf "${d1}" "${d2}" "${d3}"
+  d4="$(mk_case_dir)"
+  write_valid_case "${d4}"
+  sed -i '' '/## Conflicts and recusals/,+2d' "${d4}/GOVERNANCE.md" 2>/dev/null || \
+    sed -i '/## Conflicts and recusals/,+2d' "${d4}/GOVERNANCE.md"
+  assert_fails env ROOT_DIR="${d4}" bash "${CHECK_SCRIPT}"
+
+  rm -rf "${d1}" "${d2}" "${d3}" "${d4}"
   echo "check_continuity_policy tests passed."
 }
 

@@ -8,6 +8,8 @@ POLICY_PATH="docs/governance/continuity-and-succession.md"
 
 test -f "${POLICY_PATH}"
 grep -F "Canonical policy: \`docs/governance/continuity-and-succession.md\`." GOVERNANCE.md >/dev/null
+grep -F "## Conflicts and recusals" GOVERNANCE.md >/dev/null
+grep -F "Conflicted admins must disclose and recuse from the affected decision." GOVERNANCE.md >/dev/null
 grep -F "Minimum operational target is 2 active admins." "${POLICY_PATH}" >/dev/null
 grep -F "If active admin coverage drops below 2, only emergency continuity actions should proceed until coverage is restored." "${POLICY_PATH}" >/dev/null
 grep -F "When possible, at least 2 admins should confirm the private runbook is current and usable at least quarterly and after any major service or personnel change." "${POLICY_PATH}" >/dev/null
