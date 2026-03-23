@@ -2,7 +2,11 @@
 
 ## Admin structure
 
+- Canonical policy: `docs/governance/admin-role-and-removal.md`.
 - Organization admins are listed in GitHub org membership.
+- Admins share the same baseline authority in the bootstrap phase.
+- Admin membership changes require public record and 2-admin approval.
+- The admin under review does not count toward quorum or required approvals for their own restriction or removal.
 - Minimum operational target is 2 active admins.
 
 ## Decision process

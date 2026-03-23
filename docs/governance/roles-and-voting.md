@@ -2,7 +2,7 @@
 
 ## Roles
 
-- Admins: accountable for governance decisions, release of policy updates, and financial approvals.
+- Admins: baseline role and membership changes are governed by `docs/governance/admin-role-and-removal.md`; admins are accountable for governance decisions, release of policy updates, and financial approvals.
 - Maintainers: trusted contributors who draft policy text and coordinate implementation details.
 - Contributors: any community member proposing ideas, comments, or edits.
 
