@@ -1,5 +1,7 @@
 # Governance Roadmap Phases
 
+Canonical roadmap: `docs/governance-roadmap.md`
+
 ## Phase 1: Governance and transparency baseline
 
 - Define roles, voting, and fund approval rules.

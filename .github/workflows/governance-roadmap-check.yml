@@ -1,0 +1,16 @@
+name: Governance Roadmap Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-governance-roadmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify governance roadmap files
+        run: bash scripts/check_governance_roadmap.sh
+      - name: Run governance roadmap tests
+        run: bash tests/test_check_governance_roadmap.sh

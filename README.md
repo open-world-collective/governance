@@ -26,7 +26,7 @@ See [AI_PROVIDER_POLICY.md](AI_PROVIDER_POLICY.md).
 - Ratification approval packet (`docs/governance/ratification-approval-packet.md`)
 - Decision log (`docs/decision-log.md`)
 - Transparency reporting policy/templates (`docs/transparency/`)
-- Roadmap phases and milestones (`docs/roadmap/`)
+- Governance roadmap (`docs/governance-roadmap.md`) and supporting roadmap notes (`docs/roadmap/`)
 - ADR records (`docs/adr/`)
 - Governance issue and PR templates (`.github/`)
 

@@ -1,5 +1,7 @@
 # Milestone Plan
 
+Canonical roadmap: `docs/governance-roadmap.md`
+
 ## M1 Governance Baseline
 
 - Charter scope ratified
