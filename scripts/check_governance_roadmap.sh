@@ -7,7 +7,7 @@ cd "${ROOT}"
 ROADMAP_PATH="docs/governance-roadmap.md"
 
 test -f "${ROADMAP_PATH}"
-grep -F "Governance roadmap (\`docs/governance-roadmap.md\`) and supporting roadmap notes (\`docs/roadmap/\`)" README.md >/dev/null
+grep -F "[Governance roadmap](docs/governance-roadmap.md) and [supporting roadmap notes](docs/roadmap/)" README.md >/dev/null
 grep -F "Canonical roadmap: \`docs/governance-roadmap.md\`" docs/roadmap/milestones.md >/dev/null
 grep -F "Canonical roadmap: \`docs/governance-roadmap.md\`" docs/roadmap/phases.md >/dev/null
 grep -F "During the bootstrap phase, review this roadmap monthly." "${ROADMAP_PATH}" >/dev/null

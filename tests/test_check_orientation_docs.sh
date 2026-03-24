@@ -22,14 +22,14 @@ write_valid_case() {
   cat >"${dir}/README.md" <<'EOF'
 # Governance
 
-- Orientation guide (`docs/getting-oriented.md`)
-- Glossary (`docs/glossary.md`)
+- [Orientation guide](docs/getting-oriented.md)
+- [Glossary](docs/glossary.md)
 EOF
 
   cat >"${dir}/GOVERNANCE.md" <<'EOF'
 # Governance
 
-Need the short version first? Start with `docs/getting-oriented.md` and `docs/glossary.md`.
+Need the short version first? Start with [Getting Oriented](docs/getting-oriented.md) and [Glossary](docs/glossary.md).
 EOF
 
   cat >"${dir}/docs/getting-oriented.md" <<'EOF'

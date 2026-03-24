@@ -1,6 +1,6 @@
 # Governance
 
-Need the short version first? Start with `docs/getting-oriented.md` and `docs/glossary.md`.
+Need the short version first? Start with [Getting Oriented](docs/getting-oriented.md) and [Glossary](docs/glossary.md).
 
 ## Admin structure
 

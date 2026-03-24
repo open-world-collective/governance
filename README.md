@@ -12,9 +12,9 @@ Early-stage governance and operations scaffolding.
 
 ## Start here
 
-- New here: `docs/getting-oriented.md`
-- Terms and definitions: `docs/glossary.md`
-- Current governance summary: `GOVERNANCE.md`
+- New here: [Getting Oriented](docs/getting-oriented.md)
+- Terms and definitions: [Glossary](docs/glossary.md)
+- Current governance summary: [GOVERNANCE.md](GOVERNANCE.md)
 
 ## AI provider policy
 
@@ -22,21 +22,21 @@ See [AI_PROVIDER_POLICY.md](AI_PROVIDER_POLICY.md).
 
 ## What exists today
 
-- Manifesto / reason for being (`docs/manifesto.md`)
-- Short project description (`docs/project-purpose.md`)
-- Orientation guide (`docs/getting-oriented.md`)
-- Glossary (`docs/glossary.md`)
-- Repo scope and boundaries (`docs/scope.md`)
-- Charter draft (`docs/charter.md`)
-- Governance policy set (`docs/governance/`)
-- Rights baseline (draft) (`docs/governance/rights-baseline.md`)
-- Policy change process (draft) (`docs/governance/policy-change-process.md`)
-- Ratification approval packet (`docs/governance/ratification-approval-packet.md`)
-- Decision log (`docs/decision-log.md`)
-- Transparency reporting policy/templates (`docs/transparency/`)
-- Governance roadmap (`docs/governance-roadmap.md`) and supporting roadmap notes (`docs/roadmap/`)
-- ADR records (`docs/adr/`)
-- Governance issue and PR templates (`.github/`)
+- [Manifesto / reason for being](docs/manifesto.md)
+- [Short project description](docs/project-purpose.md)
+- [Orientation guide](docs/getting-oriented.md)
+- [Glossary](docs/glossary.md)
+- [Repo scope and boundaries](docs/scope.md)
+- [Charter draft](docs/charter.md)
+- [Governance policy set](docs/governance/)
+- [Rights baseline (draft)](docs/governance/rights-baseline.md)
+- [Policy change process (draft)](docs/governance/policy-change-process.md)
+- [Ratification approval packet](docs/governance/ratification-approval-packet.md)
+- [Decision log](docs/decision-log.md)
+- [Transparency reporting policy/templates](docs/transparency/)
+- [Governance roadmap](docs/governance-roadmap.md) and [supporting roadmap notes](docs/roadmap/)
+- [ADR records](docs/adr/)
+- [Governance issue and PR templates](.github/)
 
 ## Scope note
 
@@ -55,5 +55,5 @@ See `CONTRIBUTING.md` and use the issue templates in `.github/ISSUE_TEMPLATE/`.
 
 ## Related repos
 
-- https://github.com/open-world-collective/paper-runtime
-- https://github.com/open-world-collective/enderterm
+- [paper-runtime](https://github.com/open-world-collective/paper-runtime)
+- [enderterm](https://github.com/open-world-collective/enderterm)

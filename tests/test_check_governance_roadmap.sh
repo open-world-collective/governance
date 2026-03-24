@@ -21,7 +21,7 @@ write_valid_case() {
   cat >"${dir}/README.md" <<'EOF'
 # Governance
 
-- Governance roadmap (`docs/governance-roadmap.md`) and supporting roadmap notes (`docs/roadmap/`)
+- [Governance roadmap](docs/governance-roadmap.md) and [supporting roadmap notes](docs/roadmap/)
 EOF
   cat >"${dir}/docs/governance-roadmap.md" <<'EOF'
 # Governance Roadmap (Bootstrap v1)
