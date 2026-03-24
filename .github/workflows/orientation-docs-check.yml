@@ -1,0 +1,16 @@
+name: Orientation Docs Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-orientation-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify orientation docs
+        run: bash scripts/check_orientation_docs.sh
+      - name: Run orientation docs tests
+        run: bash tests/test_check_orientation_docs.sh

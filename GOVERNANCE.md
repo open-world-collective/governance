@@ -1,5 +1,7 @@
 # Governance
 
+Need the short version first? Start with `docs/getting-oriented.md` and `docs/glossary.md`.
+
 ## Admin structure
 
 - Canonical policy: `docs/governance/admin-role-and-removal.md`.

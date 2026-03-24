@@ -10,6 +10,12 @@ An open governance and accountability workspace for a transparency-first, commun
 
 Early-stage governance and operations scaffolding.
 
+## Start here
+
+- New here: `docs/getting-oriented.md`
+- Terms and definitions: `docs/glossary.md`
+- Current governance summary: `GOVERNANCE.md`
+
 ## AI provider policy
 
 See [AI_PROVIDER_POLICY.md](AI_PROVIDER_POLICY.md).
@@ -18,6 +24,8 @@ See [AI_PROVIDER_POLICY.md](AI_PROVIDER_POLICY.md).
 
 - Manifesto / reason for being (`docs/manifesto.md`)
 - Short project description (`docs/project-purpose.md`)
+- Orientation guide (`docs/getting-oriented.md`)
+- Glossary (`docs/glossary.md`)
 - Repo scope and boundaries (`docs/scope.md`)
 - Charter draft (`docs/charter.md`)
 - Governance policy set (`docs/governance/`)
