@@ -18,7 +18,11 @@ This policy is complementary to (and does not replace) `docs/governance/fund-app
 
 ## Canonical record
 
-The project maintains a public ledger (for example, Open Collective). Ledger entries are treated as the canonical references for money movement, and they should be linkable from governance issues and transparency reports.
+The project maintains a public ledger. During the bootstrap phase, if no external provider is active yet, the canonical public ledger may live in this repository under `docs/transparency/ledger/`.
+
+If and when an external provider is adopted (for example, Open Collective), that provider becomes the canonical transaction host unless governance records a different arrangement.
+
+Ledger entries are treated as the canonical references for money movement, and they should be linkable from governance issues and transparency reports.
 
 If the ledger provider changes, record the change via the standard policy change process and update references in this repo.
 
@@ -50,6 +54,8 @@ Monthly transparency reports must include:
 
 - a link to the public ledger (provider home and/or relevant report period view), and
 - a list of all transactions for the period, each with a link to its ledger entry and approval reference.
+
+If a reporting period has no transactions, the report should still link the relevant monthly ledger file and say explicitly that no transactions were recorded.
 
 ## Redaction and disclosure boundaries
 

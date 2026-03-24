@@ -1,0 +1,16 @@
+name: Public Ledger Bootstrap Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-public-ledger-bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify public ledger bootstrap files
+        run: bash scripts/check_public_ledger_bootstrap.sh
+      - name: Run public ledger bootstrap tests
+        run: bash tests/test_check_public_ledger_bootstrap.sh

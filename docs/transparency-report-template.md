@@ -17,8 +17,10 @@ For monthly reporting, prefer `docs/transparency/2026-03-report-template.md`.
 
 ## Financial actions
 
-- Open Collective transactions (links):
-- Any non-routine expenditures and approvals:
+- Public ledger (provider + link):
+- Monthly ledger file:
+- Transactions (ledger links + approval refs):
+- Variances/exceptions (if any):
 
 ## Operations snapshot
 

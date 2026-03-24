@@ -15,6 +15,7 @@
 ## Financial activity
 
 - Public ledger (provider + link):
+- Monthly ledger file:
 - Transactions (ledger links + approval refs):
 - Variances/exceptions (if any):
 - Reconciliation checklist completed (yes/no) + notes:
