@@ -11,7 +11,7 @@ test -f "${PACKET}"
 test -f "${PROCESS}"
 test -f "${README_FILE}"
 
-grep -F 'Ratification approval packet (`docs/governance/ratification-approval-packet.md`)' "${README_FILE}" >/dev/null
+grep -F '[Ratification approval packet](docs/governance/ratification-approval-packet.md)' "${README_FILE}" >/dev/null
 grep -F 'For a reusable approval-comment format, see `docs/governance/ratification-approval-packet.md`.' "${PROCESS}" >/dev/null
 grep -F 'post a clear approval packet and `@mention` the admins whose approval is needed' "${PROCESS}" >/dev/null
 grep -F 'Include `@qarl` on ratification requests' "${PROCESS}" >/dev/null

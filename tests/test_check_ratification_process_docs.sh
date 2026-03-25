@@ -21,7 +21,7 @@ write_valid_case() {
 
   cat >"${dir}/README.md" <<'EOF'
 # Governance
-- Ratification approval packet (`docs/governance/ratification-approval-packet.md`)
+- [Ratification approval packet](docs/governance/ratification-approval-packet.md)
 EOF
 
   cat >"${dir}/docs/governance/policy-change-process.md" <<'EOF'
